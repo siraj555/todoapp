@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<div class="col-md-6 p-5">
+    <div class="shadow card">
+        <div class="card-body">
+            <form method="POST" class="p-5" >
+                <h4 class="card-title" style="color:green; font-weight: bold;">UPDATE YOUR LIST HERE</h4><br>
+                {% csrf_token %}
+                {{f.as_p}}
+                <button class="btn btn-success" type="submit">confirm</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

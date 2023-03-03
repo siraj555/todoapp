@@ -1,0 +1,21 @@
+.banner
+{
+  background-color:indigo;
+  width:100%;
+  height:200px;
+  margin-bottom:50px;
+}
+.banner-text
+{
+color: white;
+text-align: center;
+top:50%;
+left:50%;
+position:center;
+transform:transform;
+}
+
+.position
+{
+text-align: center;
+}
